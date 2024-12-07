@@ -9,6 +9,17 @@ export const sidebarLinks = [
   },
   {
     label: 'Véhicules détails',
+    dropdown: true,
+    dropdownItems: [
+      {
+        label: 'Mireille',
+        href: '/dashboard/vehicles/mireille'
+      },
+      {
+        label: 'Mireille',
+        href: '/dashboard/vehicles/mireille'
+      }
+    ],
     icon: FaShuttleVan,
     href: '/dashboard/vehicles'
   },

@@ -1,7 +1,5 @@
 'use client';
 
-import { BadgeCheck, Bell, ChevronsUpDown, LogOut } from 'lucide-react';
-
 import {
   Avatar,
   AvatarFallback,
@@ -22,6 +20,8 @@ import {
   SidebarMenuItem,
   useSidebar
 } from '@/src/components/ui/sidebar';
+import { BadgeCheck, Bell, ChevronsUpDown, LogOut } from 'lucide-react';
+import { signOut } from 'next-auth/react';
 
 export function NavUser({
   user
@@ -86,7 +86,7 @@ export function NavUser({
               </DropdownMenuItem>
             </DropdownMenuGroup>
             <DropdownMenuSeparator />
-            <DropdownMenuItem>
+            <DropdownMenuItem onClick={() => signOut({ callbackUrl: '/' })}>
               <LogOut />
               Déconnexion
             </DropdownMenuItem>

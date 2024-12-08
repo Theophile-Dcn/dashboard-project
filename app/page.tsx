@@ -1,10 +1,14 @@
-import Link from 'next/link';
+'use client';
+
+import { signIn } from 'next-auth/react';
 
 export default function HomePage() {
   return (
-    <>
-      <h1>HomePage</h1>
-      <Link href="/dashboard">Dashboard</Link>
-    </>
+    <div>
+      <h1>Vanventure login</h1>
+      <button onClick={() => signIn('google', { callbackUrl: '/dashboard' })}>
+        Connexion
+      </button>
+    </div>
   );
 }

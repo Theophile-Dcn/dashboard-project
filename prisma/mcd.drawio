@@ -1,31 +1,25 @@
 <mxfile host="65bd71144e">
     <diagram id="YXLwJZTtPckAI44vBEO7" name="Page-1">
-        <mxGraphModel dx="1139" dy="1879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="566" dy="1879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="7" style="edgeStyle=none;html=1;endArrow=none;endFill=0;startArrow=none;" parent="1" source="13" target="4" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ID_utilisateur&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;nom&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;prenom&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;u&gt;ID_utilisateur&lt;/u&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;nom&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;prenom&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;email&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;password&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="30" y="350" width="120" height="160" as="geometry"/>
-                </mxCell>
-                <mxCell id="3" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;u style=&quot;background-color: initial;&quot;&gt;ID_PLATFORME&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;nom&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-decoration-line: underline; text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="670" y="40" width="120" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" parent="1" source="4" target="5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ID_VEHICULE&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;nom&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="4" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;u&gt;ID_VEHICULE&lt;/u&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;nom&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="360" y="350" width="120" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" style="edgeStyle=none;html=1;endArrow=none;endFill=0;startArrow=none;" parent="1" source="50" target="6" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" style="edgeStyle=none;html=1;endArrow=none;endFill=0;startArrow=none;" parent="1" source="45" target="3" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="5" value="&lt;u&gt;ID_LOCATION&lt;br&gt;&lt;/u&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;prix&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;date_depart&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;date_retour&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;status&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;id_client&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;id_vehicule&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;id_platforme&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="5" value="&lt;u&gt;ID_LOCATION&lt;br&gt;&lt;/u&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;prix&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;date_depart&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;date_retour&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;platform&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;status&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;id_client&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;id_vehicule&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="360" y="30" width="120" height="180" as="geometry"/>
                 </mxCell>
                 <mxCell id="6" value="&lt;u&gt;ID_MATERIEL&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Nom&lt;/span&gt;&lt;/div&gt;&lt;/u&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;prix&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;id_location&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
@@ -58,7 +52,7 @@
                 <mxCell id="29" style="edgeStyle=none;html=1;endArrow=none;endFill=0;startArrow=none;" parent="1" source="43" target="5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;u style=&quot;background-color: initial;&quot;&gt;ID_CLIENT&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;name&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;telephone&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="28" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;u style=&quot;background-color: initial;&quot;&gt;ID_CLIENT&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;name&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;telephone&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="50" y="40" width="120" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="30" value="1,N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -73,25 +67,13 @@
                 <mxCell id="33" value="1,1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="420" y="-110" width="40" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="35" value="1,1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="480" y="85" width="40" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="36" value="0,N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="630" y="85" width="40" height="30" as="geometry"/>
-                </mxCell>
                 <mxCell id="37" value="MATERIEL" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="360" y="-270" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" value="LOCATION" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="38" value="RESERVATION" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="360" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="47" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" parent="1" source="39" target="3" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="39" value="PLATFORME" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="670" y="40" width="120" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="40" value="VEHICULE" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="40" value="CAR" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="360" y="350" width="120" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="41" value="CLIENT" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -106,17 +88,8 @@
                         <mxPoint x="360" y="120" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="43" value="Effectue" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="43" value="Appartient" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="220" y="95" width="90" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="46" value="" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" parent="1" source="5" target="45" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="480" y="120" as="sourcePoint"/>
-                        <mxPoint x="640" y="120" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="45" value="Gere" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="530" y="102.5" width="90" height="35" as="geometry"/>
                 </mxCell>
                 <mxCell id="51" value="" style="edgeStyle=none;html=1;endArrow=none;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="38" target="50" edge="1">
                     <mxGeometry relative="1" as="geometry">

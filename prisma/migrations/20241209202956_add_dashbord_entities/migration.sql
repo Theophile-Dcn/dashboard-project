@@ -19,8 +19,10 @@ ALTER TABLE "Authenticator" DROP CONSTRAINT "Authenticator_userId_fkey";
 ALTER TABLE "Session" DROP CONSTRAINT "Session_userId_fkey";
 
 -- AlterTable
-ALTER TABLE "Account" DROP COLUMN "userId",
-ADD COLUMN     "userId" INTEGER NOT NULL;
+ALTER TABLE "Account" ADD COLUMN "newUserId" INTEGER;
+UPDATE "Account" SET "newUserId" = "userId"::INTEGER;
+ALTER TABLE "Account" DROP COLUMN "userId";
+ALTER TABLE "Account" RENAME COLUMN "newUserId" TO "userId";
 
 -- AlterTable
 ALTER TABLE "Authenticator" DROP CONSTRAINT "Authenticator_pkey",

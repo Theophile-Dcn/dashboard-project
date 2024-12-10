@@ -81,7 +81,6 @@ model Authenticator {
 model Car {
   id           Int           @id @default(autoincrement())
   name         String
-  price        Int
   createdAt    DateTime      @default(now())
   updatedAt    DateTime      @updatedAt
   userId       Int
@@ -92,6 +91,7 @@ model Car {
 model Reservation {
   id        Int        @id @default(autoincrement())
   carId     Int
+  price     Int
   clientId  Int
   startDate DateTime
   endDate   DateTime

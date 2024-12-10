@@ -26,12 +26,8 @@ import {
   YAxis
 } from 'recharts';
 
-const profitTotal = chartData.reduce(
-  (acc, item) => acc + item.vehicule + item.materiel,
-  0
-);
-
 export default function ProfitTotalChart() {
+  const profitTotal = 0;
   return (
     <Card className="w-full max-w-full">
       <CardHeader>
